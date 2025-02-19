@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_div">
+        <div class="main_sec">
+            <h2>Javascript Random Quote Generator</h2>
+            <div class="quote">
+                <p class="main_quote"></p>
+                <p class="author"></p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left_sec">
+                <button class="listen" onclick="listen()"><img src="/volume-svg.svg" alt="" height="30px"></button>
+                <button class="copy" onclick="copy()"><img src="/copy-svg.svg" alt="" height="30px"></button>
+                <button class="twitter" onclick="twitterPost()"><img src="/logo-twitter-svg.svg" alt="" height="35px"></button>
+            </div>
+            <button class="btn" onclick="getQuote()">New Quote</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
